@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital@1&display=swap');
+
+.SignUp {
+  width: min(400px, 100%);
+  height: fit-content;
+  margin: auto;
+  margin-top: 50px;
+}
+.SignUp > h5 {
+  font-size: min(30px, 4vw);
+  text-align: center;
+  width: 100%;
+}
+.SignUp > p {
+  font-size: min(20px, 4vw);
+  text-align: center;
+  width: 90%;
+  margin: auto;
+  font-family: 'Noto Sans Display', sans-serif;
+}
+.Form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 10px;
+}
+
+.Form > input {
+  padding: 15px;
+  width: 100%;
+  background-color: rgb(244, 245, 245);
+  border: none;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  font-family: "Manrope", sans-serif;
+}
+.Form > input:focus {
+  outline: none;
+}
+.Form > button {
+  width: 100%;
+  border-radius: 3px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  background-color: #121127;
+  font-family: "Manrope", sans-serif;
+}
+.Form > p {
+    font-family: "Manrope", sans-serif;
+    font-size: min(14px, 4vw);
+    margin: auto;
+    width: fit-content;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    height: 20px;
+}
+.Form > p:hover {
+    border-bottom: 1px solid #ccc;
+}
+.Form>h6{
+       font-family: "Manrope", sans-serif;
+    font-size: min(16px, 4vw);
+    margin: auto;
+    width: fit-content;
+    margin-top: 20px;
+}
+
+.LoadingSpinner {
+    border: 5px solid #f3f3f3; 
+    border-top: 5px solid #121127; 
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    animation: spin 1s linear infinite;
+    margin: auto;
+    margin-top: 150px;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
