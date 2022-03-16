@@ -1,9 +1,16 @@
 import React from 'react';
 import styles from '../../styles/Accounts.module.css'
+import Head from 'next/head';
 const Signup = () => {
-    if(true) {
+    if(false) {
         return (
+            <>
+                <Head>
+                <title>Create Account</title>
+            </Head>
             <div className={styles.LoadingSpinner} ></div>
+            </>
+            
             
         )
     }
