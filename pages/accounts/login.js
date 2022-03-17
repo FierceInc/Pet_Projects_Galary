@@ -14,6 +14,9 @@ const Login = () => {
   }
   return (
     <div className={styles.SignUp}>
+    <Head>
+        <title>Login</title>
+    </Head>
       <form className={styles.Form}>
         <input type="email" name="email" placeholder="Email Address" />
         <input type="password" name="password" placeholder="Password" />
